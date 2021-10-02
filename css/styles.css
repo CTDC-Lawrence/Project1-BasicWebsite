@@ -27,7 +27,8 @@ h1 {
 }
 
 h2 {
-    background-color: rgb(230, 205, 173);
+    background-color: rgb(4, 87, 185);
+    color: #b96604;
     text-align: center;
     font-size: 1.5em;
     line-height: 2em;
@@ -36,6 +37,8 @@ h2 {
     opacity: .8;
     padding-left: 20px;
     padding-right: 20px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 /*Components*/
@@ -55,6 +58,19 @@ h2 {
 }
 
 /* Top Nav Menu */
+a.nav-link {
+    color: whitesmoke;
+}
+
+a.nav-link:hover {
+    color: #b96604;
+    ;
+}
+
+.navbar-nav {
+    color: whitesmoke;
+}
+
 .main-menu-container {
     background-color: #333333;
     position: auto;
@@ -72,7 +88,7 @@ h2 {
     padding-inline-start: 0;
     padding-left: 40px;
     padding-right: 40px;
-    color: #aeaeae;
+    color: whitesmoke;
     line-height: 24px;
     height: 50px;
 }
@@ -114,7 +130,7 @@ h2 {
 /*Footer*/
 
 footer {
-    background-color: #333333;
+    background-color: #797f86;
     font-size: 16px;
 }
 
@@ -131,7 +147,9 @@ footer {
     margin: 10px 25px;
 }
 
-.bg-dark {
-    background-color: darkmagenta;
-    font-style: italic;
+.footer-category {
+    color: whitesmoke;
 }
+
+
+
