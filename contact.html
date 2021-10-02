@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+    <body>
+      <summary>
+        <h3>Submit request for a free consultation</h3>
+        <hr />
+        <form>
+          <fieldset>
+            <legend>Contact Information</legend>
+            First Name:<input type="text" name="fName" value="" />
+            Last Name:<input type="text" name="lName" value="" />
+            E-mail:<input type="email" name="emailaddress" />
+            Zip Code:<input type="zip_code" name="zip_code" required="required" />
+            Phone#:<input type="tel" name="telephone#" />
+            <hr />
+            </fieldset>
+          <fieldset>
+            <legend>Request Expert Consultation</legend>
+            Project Mananagement Info: <input type="radio" name="ResourceRequest" value="true" checked="checked" /><br />
+            Lean Six Sigma Info: <input type="radio" name="ResourceRequest" value="true" checked="checked" /><br />
+            Agile & Scrum Info: <input type="radio" name="ResourceRequest" value="true" checked="checked" /><br />
+            Network Administration Info: <input type="radio" name="ResourceRequest" value="true" checked="checked" /><br />
+            Web Development Info: <input type="radio" name="ResourceRequest" value="ftrue" checked="checked" /><br />
+            </fieldset>
+            <hr />
+            <fieldset>
+              <legend>Urgency of Request</legend>
+              Urgency 1-100:
+              <input type="range" name="age" min="0" max="100" value="25" />
+            </fieldset>
+            <hr />
+            <fieldset>
+              <legend>Additional Information</legend>
+              <textarea rows="4" cols="40">Please add additional information or request for free consultation, right here!
+              </textarea>
+            </fieldset>
+            <hr />
+            <input type="submit" value="Click to Submit" />
+        </form>
+      </summary>  
+    </body>
+</html>
