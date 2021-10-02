@@ -50,39 +50,44 @@
         <summary>
             <h3>Submit request for a free consultation</h3>
             <hr />
-            <form>
-              <fieldset>
-                <legend>Contact Information</legend>
-                First Name:<input type="text" name="fName" value="" />
-                Last Name:<input type="text" name="lName" value="" />
-                E-mail:<input type="email" name="emailaddress" />
-                Zip Code:<input type="zip_code" name="zip_code" required="required" />
-                Phone#:<input type="tel" name="telephone#" />
-                <hr />
+            <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/moqybwjd" method="post">
+                <fieldset id="fs-frm-inputs">
+                  <label for="full-name">Full Name</label>
+                  <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                  <hr>
+                  <label for="email-address">Email Address</label>
+                  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                  <hr>
+                  <fieldset id="fs-frm-selects">
+                    <label for="timely">I am most interested in this skillset</label>
+                    <select name="timely" id="timely" required="">
+                      <option value="Choose" selected="" disabled="">Choose</option>
+                      <option value="1">Expert Communication</option>
+                      <option value="3">Problem Solving</option>
+                      <option value="5">Project Management</option>
+                      <option value="7">Lean Agilist</option>
+                      <option value="9">Servant Leadership</option>
+                    </select>
+                    <hr>
+                    <label for="timely">I am also  interested in this skillset</label>
+                    <select name="quality" id="quality" required="">
+                      <option value="Choose" selected="" disabled="">Choose</option>
+                      <option value="1">Expert Communication</option>
+                      <option value="3">Problem Solving</option>
+                      <option value="5">Project Management</option>
+                      <option value="7">Lean Agilist</option>
+                      <option value="9">Servant Leadership</option>
+                    </select>
+                    <hr>
+                  </fieldset>
+                  <label for="message">Additional Comments</label>
+                  <textarea column="9" rows="3" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor." required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
                 </fieldset>
-              <fieldset>
-                <legend>Request Expert Consultation</legend>
-                Project Mananagement Info: <input type="radio" name="ResourceRequest" value="true" checked="checked" /><br />
-                Lean Six Sigma Info: <input type="radio" name="ResourceRequest" value="true" checked="checked" /><br />
-                Agile & Scrum Info: <input type="radio" name="ResourceRequest" value="true" checked="checked" /><br />
-                Network Administration Info: <input type="radio" name="ResourceRequest" value="true" checked="checked" /><br />
-                Web Development Info: <input type="radio" name="ResourceRequest" value="ftrue" checked="checked" /><br />
-                </fieldset>
-                <hr />
-                <fieldset>
-                  <legend>Urgency of Request</legend>
-                  Urgency 1-100:
-                  <input type="range" name="age" min="0" max="100" value="25" />
-                </fieldset>
-                <hr />
-                <fieldset>
-                  <legend>Additional Information</legend>
-                  <textarea rows="4" cols="40">Please add additional information or request for free consultation, right here!
-                  </textarea>
-                </fieldset>
-                <hr />
-                <input type="submit" value="Click to Submit" />
+                <hr>
+                <input type="submit" value="Send Responses">
             </form>
+            <hr>
           </summary>  
     </main>
     <footer>     
