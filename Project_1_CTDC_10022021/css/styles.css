@@ -30,6 +30,11 @@ body {
     text-align: center;
 }
 
+.carousel-item, carousel-caption d-none d-md-block {
+    font-weight: bold;
+    font-style: italic;
+} 
+
 h1 {
     font-style: italic;
     text-align: center;
@@ -76,13 +81,12 @@ h2 {
     color: whitesmoke;
 }*/
 
-a.nav-link:hover {
-    color: #b96604;
-    ;
+a.nav-link {
+    color: whitesmoke;
 }
 
-.navbar-nav {
-    color: whitesmoke;
+a.nav-link:hover {
+    color: #b96604;
 }
 
 .main-menu-container {
