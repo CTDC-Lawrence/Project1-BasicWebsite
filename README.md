@@ -1,6 +1,12 @@
+# Lawrence Eadie
+
 # Project 1 Build a Prototype Business/Personal Website
 
 # Basic showcase of my skills with a fictitious company called Connect The Dots Club which is a recruiting company
+
+# The site uses .html, .css, and Bootstrap.
+
+# Future improvements include adding .js, creating image links, and design for mobile
 
 # User Stories
 
