@@ -1,1 +1,1 @@
-js code coming soon
+/*js code coming soon*/
